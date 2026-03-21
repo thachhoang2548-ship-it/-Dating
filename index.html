@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Evening Out ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Quicksand:wght@400;500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="solar-system">
+        <div class="sun"></div>
+        <div class="orbit mercury-orbit"><div class="planet mercury"></div></div>
+        <div class="orbit venus-orbit"><div class="planet venus"></div></div>
+        <div class="orbit earth-orbit">
+            <div class="planet earth">
+                <div class="moon-orbit"><div class="moon"></div></div>
+            </div>
+        </div>
+        <div class="orbit mars-orbit"><div class="planet mars"></div></div>
+        <div class="orbit jupiter-orbit"><div class="planet jupiter"></div></div>
+        <div class="orbit saturn-orbit">
+            <div class="planet saturn"><div class="saturn-ring"></div></div>
+        </div>
+        <div class="orbit uranus-orbit"><div class="planet uranus"></div></div>
+        <div class="orbit neptune-orbit"><div class="planet neptune"></div></div>
+    </div>
+
+    <div class="container">
+        <div class="envelope-wrapper" id="envelope-wrapper">
+            <div class="envelope" id="envelope">
+                <div class="flap"></div>
+                <div class="left-fold"></div>
+                <div class="right-fold"></div>
+                <div class="bottom-fold"></div>
+                
+                <div class="letter" id="letter">
+                    <div class="close-btn" id="close-btn">&times;</div>
+                    <div class="letter-inner scrollable">
+                        <div class="header-section">
+                            <div class="title">Night Dating 25/3</div>
+                            <div class="subtitle">Anh gửi bấy bi timeline nhé!!! 👇</div>
+                        </div>
+                        
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="time">17:00</div>
+                                    <div class="topic">Pick up</div>
+                                    <div class="desc">Anh sang đón em</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="time">18:00</div>
+                                    <div class="topic">Dinner Time</div>
+                                    <div class="desc">Ghé Pizza 4P's 2 đứa ăn tối... 🍕🥂</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="time">19:30</div>
+                                    <div class="topic">Photogenic 📸</div>
+                                    <div class="desc">Ghé đây mình làm tí photobooth, sẳn lưu giữ kỷ niệm buổi đầu tiên ở đây hehe ✨</div>
+                                </div>
+                            </li>
+                           
+                            <li>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="time">20:00-22:00</div>
+                                    <div class="topic">Xào Xạc Cafe</div>
+                                    <div class="desc">Ăn ún no say rùi giờ mình làm tí cà hê ☕, nếu khum thì mình lượn vài vòng thành phố goy đưa bbi về 🏎️🌙</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="footer-section">
+                           
+                            
+                            <div class="response-section" id="response-section">
+                                <button class="btn-agree" id="agree-btn">Nghe hợp lý đó! ✨</button>
+                                
+                                <form class="dresscode-form hide" id="dresscode-form">
+                                    <p>Tuyệt vời! Bật mí dresscode hôm đó của bbi nhé 👇</p>
+                                    <input type="text" id="dresscode-input" placeholder="..." required autocomplete="off">
+                                    <button type="submit" class="btn-submit">Chốt luôn 🚀</button>
+                                </form>
+
+                                <div class="success-msg hide" id="success-msg">
+                                    Đã chốt kèo! ❤️
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heart" id="heart"></div>
+            </div>
+            
+            <div class="front-label">
+                <div class="label-names">FROM: <b>⋆𝐛𝐨</b> // TO: <b>Bquyn</b></div>
+            </div>
+
+            <div class="shadow"></div>
+        </div>
+        <p class="instruction" id="instruction">Bấm vào trái tim để mở thư</p>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
